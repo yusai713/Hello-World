@@ -1,24 +1,8 @@
-# README
+#共同開発課題
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+以下の課題に取り組み、完了したら神里に提出をお願いします。
+こちらは一気に全ての課題をやるのではなく、ご自身の勉強を進めていただき、随時できそうなものからチャレンジしてください。
+宜しくお願いいたします！
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1.「Hello World」を表示したアプリを Github にあげる
+2.Github にアップした「Hello World」アプリをローカルにクローンして動作確認 3.「Hello World」アプリでブランチ作成・任意の変更を加える・コミット・プッシュ・プルリク 4.人生逆転サロンのカリキュラムで作ったサンプルアプリを変更を加えるごとにコミットしてバージョン管理（完成したらリポジトリを神里に共有してください）
