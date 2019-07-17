@@ -1,8 +1,10 @@
-<div class="hello">
-<h1><%= @message %></h1>
+<%= link_to "投稿画面に戻る","/users/new" %>
 
-<p>初めまして、西原と申します。
-<br>よろしくお願いいたします！m(_ _)m</p>
-</div>
-
-<small>© 西原 All rights reserved.</small>
+<% @users.each do |user| %>
+<p>
+  <%= user.name %>
+  <%= user.age %>
+  <%= link_to '編集', "users/#{user.id}/edit", method: :get %>
+  <%= link_to '削除', "/users/#{user.id}", method: :delete, data: {confirm: "本当に削除しますか?"}  %>
+</p>
+<% end %>

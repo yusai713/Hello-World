@@ -13,7 +13,7 @@
  *= require_tree .
  *= require_self
  */
-* {
+body {
   margin: 0;
   padding: 0;
 }
@@ -22,14 +22,12 @@
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
 }
 
 h1 {
   font-size: 7vw;
-}
-
-p {
-  text-align: center;
 }
 
 small {
