@@ -13,10 +13,25 @@
  *= require_tree .
  *= require_self
  */
-body {
-  margin: 0;
-  padding: 0;
+@import "bootstrap";
+
+.btn-primary a {
+  color: white;
+  font-weight: bold;
 }
+
+p {
+  margin-top: 1rem;
+}
+
+/*---users---*/
+.micro-btn {
+  border: 1px solid;
+  padding: 5px;
+  color: #000;
+}
+
+/*--intro---*/
 .hello {
   position: absolute;
   top: 45%;
@@ -24,10 +39,10 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
   width: 100%;
-}
 
-h1 {
-  font-size: 7vw;
+  h1 {
+    font-size: 7vw;
+  }
 }
 
 small {
