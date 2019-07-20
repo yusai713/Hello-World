@@ -40,9 +40,16 @@ p {
   text-align: center;
   width: 100%;
 
-  h1 {
+  <<<<<<< HEAD:app/assets/stylesheets/application.scss h1 {
     font-size: 7vw;
   }
+
+  =======
+}
+
+h1 {
+  font-size: 7vw;
+  >>>>>>>a99c0f1f20d8a39c7447b5f58775c1acac69beb1: app/assets/stylesheets/application.css
 }
 
 small {
