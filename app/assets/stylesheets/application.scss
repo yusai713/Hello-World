@@ -13,10 +13,25 @@
  *= require_tree .
  *= require_self
  */
-body {
-  margin: 0;
-  padding: 0;
+@import "bootstrap";
+
+.btn-primary a {
+  color: white;
+  font-weight: bold;
 }
+
+p {
+  margin-top: 1rem;
+}
+
+/*---users---*/
+.micro-btn {
+  border: 1px solid;
+  padding: 5px;
+  color: #000;
+}
+
+/*--intro---*/
 .hello {
   position: absolute;
   top: 45%;
@@ -24,10 +39,17 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
   width: 100%;
+
+  <<<<<<< HEAD:app/assets/stylesheets/application.scss h1 {
+    font-size: 7vw;
+  }
+
+  =======
 }
 
 h1 {
   font-size: 7vw;
+  >>>>>>>a99c0f1f20d8a39c7447b5f58775c1acac69beb1: app/assets/stylesheets/application.css
 }
 
 small {

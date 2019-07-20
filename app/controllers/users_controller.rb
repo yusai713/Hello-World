@@ -14,6 +14,11 @@ class UsersController < ApplicationController #クラス名は大文字から始
     redirect_to action: 'index'
   end
 
+  # 詳細情報を表示するためのアクション
+  def show
+    @user = User.find(params[:id])
+  end
+
   # 編集するためのアクション
   def edit
     @user = User.find(params[:id])

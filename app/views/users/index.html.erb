@@ -1,10 +1,17 @@
-<%= link_to "投稿画面に戻る","/users/new" %>
+<button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+  <%= link_to "投稿画面へ", new_user_path %>
+</button>
 
 <% @users.each do |user| %>
 <p>
   <%= user.name %>
   <%= user.age %>
-  <%= link_to '編集', "users/#{user.id}/edit", method: :get %>
-  <%= link_to '削除', "/users/#{user.id}", method: :delete, data: {confirm: "本当に削除しますか?"}  %>
+  <%= link_to '詳細', user_path(user.id), class: "micro-btn"%>
+  <%= link_to '編集', edit_user_path(user.id), method: :get, class: "micro-btn" %>
+  <%= link_to '削除', user_path(user.id), method: :delete, data: {confirm: "本当に削除しますか?"},class: "micro-btn"  %>
 </p>
 <% end %>
+
+<!--
+rake routesコマンドを打って、対応するパスを確認する。
+-->
