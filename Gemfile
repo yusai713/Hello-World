@@ -68,3 +68,4 @@ gem 'rails_best_practices'
 
 gem 'jquery-rails'
 gem "bootstrap", ">= 4.3.1"
+gem 'colorize'
